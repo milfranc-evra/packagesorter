@@ -1,9 +1,9 @@
 // Packagesorter is a library that takes certain dimensions and a mass to determine in which stack to put a package
 package packagesorter
 
-type KgUnit int
-type CmUnit int
-type Cm3Unit int
+type KgUnit float64
+type CmUnit float64
+type Cm3Unit float64
 
 const (
 	MINIMUM_BULKY_PACKAGE_VOLUME = 1_000_000
